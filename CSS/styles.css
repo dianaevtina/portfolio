@@ -1,0 +1,122 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif; /* links on these fonts are declared in index file */
+}
+a{
+    color: #11999E;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+h1{
+  font-size: 5.625rem; /*1rem = 16px*/
+  margin: 20px auto 0;
+  font-family: 'Sacramento', cursive;
+  color:  #66BFBF;
+}
+h2{
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color:  #66BFBF;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+hr{
+  border-style: dotted none none;
+  border-color: #ECEAF6;
+  border-width: 5px;
+  width: 6%;
+  margin: 75px auto;
+}
+.top-container{
+  position: relative; /* helps us to connect the objects inside this block with its borders */
+  background-color: #B9F8D3;
+  padding-top: 100px;
+}
+.middle-container{
+    padding-bottom: 75px;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding-top: 20px;
+}
+.underlined{
+  text-decoration: underline;
+}
+.top-cloud{
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+.bottom-cloud{
+  position: absolute; /*helps us to determine exactly the layout of our object*/
+  bottom: 300px;
+  left: 300px;
+}
+.skill-row{
+    margin: 75px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2; /* space between lines of text */
+}
+.maths-pic{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.code-pic{
+    width: 25%;
+    float: right; /* float helps us to surrender our image with text (in our case on right-side */
+    margin-left: 30px;
+}
+.my-face{
+    width: 50%;
+    margin: 50px auto 0;
+}
+.profile{
+    color: #40514E;
+    width: 35%;
+    margin: 25px auto 75px;
+}
+.call-to-write{
+    color: #40514E;
+    width: 35%;
+    margin: 50px auto;
+}
+.copyrighting{
+    display: inline-block;
+    color: #EAF6F6;
+    margin: 30px auto 20px;
+}
+.footer-link{
+    display: block;
+}
+/* clear property helps to ban the text-floating around this object */
