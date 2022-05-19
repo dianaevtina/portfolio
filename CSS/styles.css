@@ -1,10 +1,17 @@
 body{
+  color: #14514E;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif; /* links on these fonts are declared in index file */
 }
 a{
+    font-family: 'Montserrat', sans-serif;
     color: #11999E;
+    text-decoration: none;
+    margin: 10px auto;
+}
+a:hover{
+    color: #EAF6F6;
 }
 .btn {
   background: #11cdd4;
@@ -16,7 +23,7 @@ a{
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family: Arial;
+  font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
@@ -43,7 +50,7 @@ h2{
   font-family: 'Montserrat', sans-serif;
   color:  #66BFBF;
   font-weight: normal;
-  margin-bottom: 40px;
+  padding-bottom: 10px;
 }
 h3{
   font-family: 'Montserrat', sans-serif;
@@ -56,36 +63,38 @@ hr{
   width: 6%;
   margin: 75px auto;
 }
+p{
+  line-height: 2; /* space between lines of text */
+}
 .top-container{
   position: relative; /* helps us to connect the objects inside this block with its borders */
-  background-color: #B9F8D3;
+  background-color: #EAF6F6; /*#B9F8D3;*/
   padding-top: 100px;
 }
 .middle-container{
-    padding-bottom: 75px;
+    margin: 100px 0;
 }
 .bottom-container{
   background-color: #66BFBF;
-  padding-top: 20px;
+  padding: 15px 0;
 }
 .underlined{
   text-decoration: underline;
 }
 .top-cloud{
   position: absolute;
-  top: 50px;
-  right: 300px;
+  top: 10%;
+  right: 15%;
 }
 .bottom-cloud{
   position: absolute; /*helps us to determine exactly the layout of our object*/
-  bottom: 300px;
-  left: 300px;
+  bottom: 40%;
+  left: 15%;
 }
 .skill-row{
     margin: 75px auto;
     width: 50%;
     text-align: left;
-    line-height: 2; /* space between lines of text */
 }
 .maths-pic{
     width: 25%;
@@ -102,21 +111,18 @@ hr{
     margin: 50px auto 0;
 }
 .profile{
-    color: #40514E;
     width: 35%;
     margin: 25px auto 75px;
 }
 .call-to-write{
-    color: #40514E;
     width: 35%;
     margin: 50px auto;
 }
 .copyrighting{
-    display: inline-block;
-    color: #EAF6F6;
-    margin: 30px auto 20px;
-}
-.footer-link{
     display: block;
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    margin: 15px auto;
 }
+
 /* clear property helps to ban the text-floating around this object */
